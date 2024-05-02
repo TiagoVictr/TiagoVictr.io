@@ -1,0 +1,30 @@
+@media only screen and (max-width: 720px) {
+    .main-container {
+        padding: 10px;
+    }
+    .caixa {
+        align-items: center;
+        padding: 10px; /* Reduzindo o espaço dentro da caixa */
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    h3 {
+        font-size: 18px; /* Reduzindo o tamanho da fonte do título */
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    button:focus {
+        padding: 16px; /* Reduzindo o padding dos botões */
+        margin: 4px 8px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
